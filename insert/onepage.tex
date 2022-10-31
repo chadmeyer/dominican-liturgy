@@ -1,0 +1,63 @@
+\documentclass[10pt]{article}
+\RequirePackage{luatex85}
+\usepackage[autocompile,allowdeprecated=true]{gregoriotex}
+\usepackage{hyperref}
+\usepackage[margin=0.3cm,paperheight=17.3cm,paperwidth=9.8cm]{geometry}
+\usepackage[letter,center,cam]{crop}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+\makeatletter
+\DeclareRobustCommand{\versicle}{\vers@resp{-0.1em}{V}}
+\DeclareRobustCommand{\response}{\vers@resp{0pt}{R}}
+
+\newcommand{\vers@resp@sym}{\raisebox{0.2ex}{\rotatebox[origin=c]{-20}{$\m@th\rceil$}}}
+
+\newcommand{\vers@resp}[2]{%
+  {\ooalign{\hidewidth\kern#1\vers@resp@sym\hidewidth\cr#2\cr}}%
+}
+\makeatother
+\begin{document}
+\setlength{\parindent}{0pt}
+\grechangestaffsize{12}
+%\grechangedim{spaceabovelines}{0.15cm}{fixed}
+%\grechangedim{spacebeneathtext}{0.11cm}{fixed}
+\grechangedim{baselineskip}{0pt}{fixed}
+\grechangestyle{initial}{\fontsize{36}{36}\selectfont}
+\gregorioscore{dominicanSalve}
+
+\begin{tabularx}{\textwidth}{X X}
+\textcolor{red}{\versicle.} Dignare me laudare te, Virgo sacrata \textcolor{red}{(P.T.} Alleluia\textcolor{red}{)} &
+\textcolor{red}{\versicle.} Permit me to sing your praises, holy virgin \textcolor{red}{(}Alleluia\textcolor{red}{)} \\
+\textcolor{red}{\response.} Da mihi virtutem contra hostes tuos \textcolor{red}{(P.T.} Alleluia\textcolor{red}{)} &
+\textcolor{red}{\response.} Strengthen me against your enemies \textcolor{red}{(}Alleluia\textcolor{red}{)}
+\end{tabularx}
+\begin{tabularx}{\textwidth}{X X}
+\textbf{Oremus.} & \textbf{Let us pray.} \\
+Concede nos famulos tuos, qu\ae{}sumus, Domine Deus, perpetua mentis
+et corporis salute gaudere: et gloriosa beate Mari\ae{} semper Virginis
+intercessione a pr\ae{}senti liberari tristitia et \ae{}terna perfrui
+l\ae{}titia: Per Christum Dominum nostrum. \textcolor{red}{\response.} Amen. &
+Lord God, give to your people the joy of continual health in mind and
+body.  With the prayers of the Virgin Mary to help us, guide us through
+the sorrows of this life to eternal happiness in the life to come.  We
+ask this through Christ our Lord. \textcolor{red}{\response.} Amen.
+\end{tabularx}
+\gregorioscore{olumen}
+\begin{tabularx}{\textwidth}{X X}
+\textcolor{red}{\versicle.} Ora pro nobis beate Pater Dominice. \textcolor{red}{(P.T.} Alleluia\textcolor{red}{)} &
+\textcolor{red}{\versicle.} Holy Father Dominic, pray for us.  \textcolor{red}{(}Alleluia\textcolor{red}{)}\\
+\textcolor{red}{\response.} Ut digni efficiamur promissionibus Christi. \textcolor{red}{(P.T.} Alleluia\textcolor{red}{)} &
+\textcolor{red}{\response.} That we may be made worthy of the promises of Christ. \textcolor{red}{(}Alleluia\textcolor{red}{)} \\
+\textbf{Oremus.} & \textbf{Let us pray.} \\
+Concede, qu\ae{}sumus, omnipotens Deus: ut qui peccatorum nostorum
+pondere premimur, beati Dominici confessoris tui, Patris nostri,
+patrocinio sublevemur: Per Christum Dominum nostrum.  \textcolor{red}{\response.} Amen. & 
+Grant, we beseech you, almighty God, that we, who are weighed down 
+by the burden of our sins, might be supported by the intercession 
+of blessed Dominic, your confessor and our father, though Christ our Lord.
+\textcolor{red}{\response.} Amen.
+\end{tabularx}
+
+\end{document}
