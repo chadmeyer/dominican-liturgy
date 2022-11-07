@@ -15,7 +15,7 @@ Note that the traditional office for the dead is an office "of three lessons" me
 ## First Nocturn
 1. Psalm 5; Ant. 1: Lord my God, make clear your way before me.
 2. Psalm 6; Ant. 2: Return, Lord, rescue my soul, for in death no one remembers you.
-3. Psalm 7; Ant. 3: Lest he tear me to pieces like a lion and drag me off with no one ot rescue me.
+3. Psalm 7; Ant. 3: Lest he tear me to pieces like a lion and drag me off with no one to rescue me.
 
 V. From the gate of hell.
 R. Lord, deliver their souls.
@@ -23,13 +23,13 @@ R. Lord, deliver their souls.
 Our Father... (silently) ...And lead us not into temptation. R. But deliver us from evil.
 
 Lesson 1: Job 7:7,17-21.
-R. I believe that my redeemer lives and at last he will stand upon the Earth: the from my flesh I will see God, * my savior.  V. Whom shall I see on my side, and my eyes shall behold, and not another -- My savior.  
+R. I believe that my Redeemer lives and at last he will stand upon the earth: the from my flesh I will see God, * my savior.  V. Whom I shall see on my side, and my eyes shall behold, and not another -- My savior.  
 
 Lesson 2: Job 10:1-7.
 R. You it was who raised up Lazarus from the decay of the tomb. * Give them rest, Lord, and a place of enjoyment.  V. You it is who will come to judge the living and the dead, and the world by fire. -- Give them rest...
 
 Lesson 3: Job 10:8-12.
-R. Lord, where shall I hide from your angry countenance when you come to judge the earth, * because I have sinned greatly in my life.  V. I am terrified at the thought of my sins, and I blush before you.  When you come to judge, do not condemn me -- because I have sinned...
+R. Lord, where shall I hide from your angry countenance when you come to judge the earth, * because I have sinned greatly in my life?  V. I am terrified at the thought of my sins, and I blush before you.  When you come to judge, do not condemn me -- because I have sinned...
 
 ## Second Nocturn
 4. Psalm 23; Ant. 4: Fresh and green are the pastures where he gives me repose.
@@ -42,7 +42,7 @@ R. They have no fear of evil news.
 Our Father... (silently) ...And lead us not into temptation. R. But deliver us from evil.
 
 Lesson 4: Job 13:23-28
-R. Woe is me, Lord, for I have sinned greatly in my life.  Im my misery, what shall I do?  Where shall I flee if not to you, my God? Have mercy on me, When you come * on the last day.  V. My soul is filled with anguish, but come Lord with help.  -- On the last day.
+R. Woe is me, Lord, for I have sinned greatly in my life.  Im my misery, what shall I do?  Where shall I flee if not to you, my God? Have mercy on me, when you come * on the last day.  V. My soul is filled with anguish, but come Lord with help.  -- On the last day.
 
 Lesson 5: Job 14:1-6
 R. Do not recall my sins, Lord, * when you come to judge the world by fire.  V. Lord my God, make clear your way before me. -- When you come...
@@ -55,8 +55,8 @@ R. Lord, do not judge me by what I have done: I have achieved no merit in your s
 8. Psalm 41; Ant 8: Heal my soul for I have sinned against you.
 9. Psalm 42; Ant 9: My soul is thirsting for God, the God of my life, when can I enter and see the face of God?
 
-V. Do not give israel, your dove, to the hawk,
-R. Not forget the life of your poor servants for ever.  
+V. Do not give Israel, your dove, to the hawk,
+R. Nor forget the life of your poor servants for ever.  
 
 Our Father... (silently) ...And lead us not into temptation. R. But deliver us from evil.
 
@@ -67,7 +67,7 @@ Lesson 8: Job 19:20-27
 R. remember, God, that my life is a breath. * The eye of him who sees me will behold me no more.  V. My eye will never again see good.  -- The eye of him...
 
 Lesson 9: Job 10:18-22
-R. Deliver me, Lord, from eternal death on that dread da, * when the heavens and the earth shall be shaken, as you come to judge the world by fire.  V. That day is a day of wrath, a day of ruin and devastation, the great day; and a very bitter one. -- When the heavens and the earth shall be shaken.
+R. Deliver me, Lord, from eternal death on that dread day, * when the heavens and the earth shall be shaken, as you come to judge the world by fire.  V. That day is a day of wrath, a day of ruin and devastation, the great day; and a very bitter one. -- When the heavens and the earth shall be shaken.
 
 ## Prayer, as at lauds if said separately.
 # Lauds
@@ -80,7 +80,7 @@ Lauds has 5 psalms.
 4. Isaiah 38:10-20; Ant 4: From the gate of hell, Lord, deliver their souls.
 5. Psalm 150; Ant 5: Let everything that lives and breathes give praise to the Lord.
 
-Benedictus Ant.: I am the resurrection and the life; he who believes in me, though he die, yet shall he live, and whoever lives in and believes in me shall never die.
+Benedictus Ant.: I am the resurrection and the life; he who believes in me, though he die, yet shall he live, and whoever lives and believes in me shall never die.
 
 Our Father... (silently) ...And lead us not into temptation. R. But deliver us from evil.
 
