@@ -4,13 +4,13 @@ The office borrows its structure from the Canonical Hours, but does not include 
 - The office jumps right into the psalms, no introduction, no invitatory, no hymn
 - In the traditional Dominican office, the antiphon is said *after* the psalm, and not before (both  before and after on I class feasts for the Benedictus and Magnificat.)
   - It might be in the spirit of mutual enrichment to adapt the modern usage of reciting the antiphon before and after
-- There is only Matins, Lauds and Vespers, no daytime offices.  Occasionally these parts would have been appended to the canonical hours, and at other times they would have been prayed all the way through.  
+- There are only the offices of Matins, Lauds and Vespers, no daytime offices, no compline.  Occasionally these parts would have been appended to the canonical hours (i.e. praying first the office of Lauds, then Lauds as described below), and at other times they would have been prayed all the way through (Matins, Lauds and Vespers all together in a single service, e.g. in the presence of the body).  
 - In the Office for the Dead, rather than the *Gloria Patri*, we say the versicle: Eternal Rest grant unto them O Lord, * and let perpetual light shine upon them.
 
 
 # Matins
 
-Note that the traditional office for the dead is an office "of three lessons" meaning that there are 9 psalms, in 3 "nocturns" which are each 3 psalms, with three readings.
+Note that the traditional office for the dead is an office "of nine lessons" meaning that there are 9 psalms, in 3 "nocturns" which each have 3 psalms, with three readings each.
 
 ## First Nocturn
 1. Psalm 5; Ant. 1: Lord my God, make clear your way before me.
