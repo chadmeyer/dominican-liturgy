@@ -1,0 +1,22 @@
+# Preprocessor Approach
+
+Here is where we are trying a new approach to dealing with the psalm text.  Rather than marking up the entire text, we just label syllables and accents.  Then this can be processed to add LaTeX markup as needed to make things usable in documents.
+
+## Syntax
+The essential parts of syntax here are how to break up syllables within a word, how to mark syllables as accented, and possibly how to identify what kind of line this is (flex, mediant, conclusion).  The most important thing here is to use characters that won't appear in any psalm texts proper.
+
+I have decided to go with the vertical pipe character "|" as an indicator of a split of syllables within a word, and the carat character "^" as an indicator that the syllable is accented.  If the last "word" of a line is the asterisk "*" then it is a "mediant" line, if the last word is "+" then it is a flex line, otherwise it is a concluding line.
+
+# Multiple directions to go from here
+I can think of basically two directions to go from here.  The first is a preprocessor that labels sufficient syllables in a sufficiently descriptive way to be able to change the labels into formatting (bold, italics, underlining) to make it clear what to do when chanting.  The second is a preprocessor (or multiple) that can take the particular interpretation of a particular psalm tone and decorate the needed syllables in that case.   The principle difference is whether the bulk of the work is done in the preprocessor or on the LaTeX side.  
+
+## The Universal Preprocessor
+This was/is the goal of the preprocessor: process the lines of the text and label the various relevant syllables (final syllable, penultimate syllable, final accent, etc.) including cases where we would "skip" the actual accent and go with a "virtual" accent or a subsequent accent.  For flex lines, that's two cases (final accent on final syllable or not) and it is easy to decide for a given "interpretation" of the psalm tones what to do in those two cases.  
+
+## The Particular preprocessor
+However, for other cases (tone I, III, VI, VII mediants, and most conclusions) the situation becomes almost combinatoric (between needing to handle exception case(s) for multiple accents and multiple interpretations on top of that), it might be more reasonable (aka legible, aka tractable) to have the preprocessor label each necessary syllable for a *particular interpretation of a particular tone*.  This could be a robust preprocessor capable of being told which syllables need to be labeled depending on the accent pattern, or simply a few processors (1 flex, 3 mediant, 3+ conclusions) capable of doing what is needed.
+
+There are multiple benefits here.  First of all, it keeps the LaTeX clean -- one only needs to decide what do do with the particular syllables, which could even be done by the preprocesor as well.  Second, it allows for exception cases to be handled relatively easily.  A "content fetcher" could first look in a path (e.g. for tone3/psalm12.tex) and if the file is not present process the base text according to standard rules.  This naturally supports a more musical (and less mathematical) model of usage.  Finally, it allows greater flexibility in tones -- for example the Murray tones or the St. Meinrad tones vary from line to line and potentially depending on the number of lines in a stanza.  The "universal" approach would also have to take that into account if it were to be truly universal.  
+
+### How to actually use this
+I imagine setting up a set of folders: root/translation/tone/ with files for the individual psalms and canticles there.  It could be like root/grail/dominicanIa/psalm113.tex or similar.  We could even define root to be translation (e.g. grail) because we might not care to mix translations.  The "preprocessor" could be invoked with the folder and psalm options and simply stream back the file if it exists (e.g. because it is an exception case).  Otherwise, it goes to root/translation/raw or something and grabs psalm113.psalm, and processes it according to the rules associated with "dominicnIa" and returns the processed text.  This could be done by the iexec package or the TeX \write18 directive.  The former takes stdout and places it in the source buffer, while the latter sends a command to the terminal (which could, for instance, produce a file.)
