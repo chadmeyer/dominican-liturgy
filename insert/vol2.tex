@@ -1,0 +1,108 @@
+% This is a one-page insert intended for Dominican Compline to go with volume 2 
+% of the Liturgy of the Hours (Lent and Easter)
+% Must be compiled with luatex (because of graphicx for the versicle and responsory)
+\documentclass[10pt]{article}
+%\RequirePackage{luatex85}
+%\usepackage[autocompile,allowdeprecated=true]{gregoriotex}
+\usepackage{hyperref}
+\usepackage[margin=0.3cm,paperheight=17.3cm,paperwidth=9.8cm]{geometry}
+\usepackage[letter,center,cam]{crop}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+\makeatletter
+\DeclareRobustCommand{\versicle}{\vers@resp{-0.1em}{V}}
+\DeclareRobustCommand{\response}{\vers@resp{0pt}{R}}
+
+\newcommand{\vers@resp@sym}{\raisebox{0.2ex}{\rotatebox[origin=c]{-20}{$\m@th\rceil$}}}
+
+\newcommand{\vers@resp}[2]{%
+  {\ooalign{\hidewidth\kern#1\vers@resp@sym\hidewidth\cr#2\cr}}%
+}
+\makeatother
+\begin{document}
+\setlength{\parindent}{0pt}
+\textcolor{red}{DOMINICAN COMPLINE PROPERS FOR LENT AND EASTER}
+
+
+\textcolor{red}{\versicle.} God, come to my assistance. \\
+\textcolor{red}{\response.} Lord, make haste to help me. \\
+Glory to the father.  As it was.  Alleluia.
+
+\textcolor{red}{All:} \\
+I confess to almighty God, 
+to blessed Mary ever virgin, 
+to blessed Dominic our father, 
+to all the saints, and to you, brethren,
+that I have sinned exceedingly
+by thought, word, deed, and omission, through my fault:
+I beseech you to pray for me.
+
+\textcolor{red}{Prior or Hebdomadarian:}\\
+May almighty God have mercy on us
+and forgive us all our sins,
+may he free us from all evil,
+keep us safe and strengthen us in every good work,
+and bring us to eternal life.\\
+\textcolor{red}{\response.} Amen.
+
+\textcolor{red}{Psalm antiphon for the Annunciation:}\\
+\textcolor{red}{Ant.} Behold a virgin shall conceive and bear a son, and shall call his name Immanuel \textcolor{red}{(}alleluia, alleluia\textcolor{red}{)}.
+
+\textcolor{red}{RESPONSORIES}
+
+\textcolor{red}{Saturdays, Sundays, Solemnities, Feasts, and Holy Week:} \\
+\textcolor{red}{\response.} In the midst of life we are in death.  
+To whom do we look for help, but to you Lord, whose anger, with good reason, 
+is enkindled because of our sins?
+\textcolor{red}{*} O Holy God, O holy Mighty One, O holy and merciful Savior, give us not over to bitter death! \\
+\textcolor{red}{\versicle.} Do not reject us now that we are old, when our strength fails do not forsake us Lord.
+\textcolor{red}{*} O Holy God \dots
+
+\textcolor{red}{Weekdays:} \\
+\textcolor{red}{\response.} In peace I will lie down
+\textcolor{red}{*} and then sleep comes at once, O Lord.\\
+\textcolor{red}{\versicle.} But until I find a place for the Lord, I will give no sleep to my eyes, to my eyelids give no slumber.
+\textcolor{red}{*} and then sleep comes at once, O Lord.\\
+Glory to the Father.  In peace\dots
+
+\textcolor{red}{GOSPEL CANTICLE}
+
+\textcolor{red}{Annunciation:} \\
+\textcolor{red}{Ant.} Behold, I am the handmaid of the Lord; let it be to me according to your word \textcolor{red}{(}alleluia\textcolor{red}{)}.
+
+\textcolor{red}{First Sunday of Lent until Saturday before the third Sunday of Lent:}\\
+\textcolor{red}{Ant.} Watch over us, eternal Savior, that the wily tempter may not lay hold on us, for you have been made our helper for evermore.
+
+\textcolor{red}{Third Sunday of Lent until the Easter Triduum:}\\
+\textcolor{red}{Ant.} O King, resplendent in the midst of your saints, ever worthy of prise yet surpassing all words!
+You, O Lord, are in the midst of us, and we are called by your holy name; leave us not, you are our God.
+And on the day of judgment, O blessed King, may you deign to place us among your saints and chosen ones.
+
+\textcolor{red}{Easter until Ascension:} \\
+\textcolor{red}{Ant.} Alleluia. The Lord has risen, Alleluia, as he told you, alleluia, alleluia.
+
+\textcolor{red}{Ascension until Pentecost:} \\
+\textcolor{red}{Ant.} Alleluia.  When Christ ascended on high, alleluia, he led a host of captives, alleluia, alleluia.
+
+\textcolor{red}{Pentecost:} \\
+\textcolor{red}{Ant.} Alleluia.  The Spirit, the Counselor, alleluia, will teach you all things, alleluia, alleluia.
+
+\textcolor{red}{Concluding Prayer (or may use the prayer of the day):}\\
+Let us pray.\\
+Lord, we beg you to visit this house and banish from it all the deadly power of the enemy.
+May your holy angels dwell here to keep us in peace; and may your blessing be upon us always.
+We as this through Christ our Lord.  \textcolor{red}{\response.} Amen.
+
+\textcolor{red}{Blessing:}
+May the all-powerful and merciful Lord grant us a restful night and a peaceful death.  \textcolor{red}{\response.} Amen.
+
+\textcolor{red}{The Salve and O Lumen follow with their prayers. The office is concluded with:}\\
+\begin{tabularx}{\textwidth}{X X}
+  May the souls of the faithful departed, through the mercy of God, rest in peace. \textcolor{red}{\response.} Amen. &
+  Fidelium animae, per misericordiam Dei, requiescant in pace.  \textcolor{red}{\response.} Amen.
+\end{tabularx}
+
+
+\end{document}
