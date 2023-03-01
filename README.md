@@ -15,3 +15,6 @@ In the insert folder are a number of things intended to be printed as "inserts" 
 ## Other
 * I have transcribed the English translation of the traditional Office of the Dead for the Dominicans.  Only references are included to the psalms and the biblical readings; one can look those up in any convenient translation.
 * While it is not specifically Dominican, I have transcribed the new translation of the Te Deum that was published in the USCCB committe on divine worship newsletter.
+
+## preprocessor
+Again, this is not strictly Dominican, but is meant as an aid to preparing psalms pointed for chant (with the traditional Dominican tones the intended target).  This is not fully functional yet, but a prototype to take in psalm and canticle texts which have been segmented into syllables and marked with accents be decorated in such a way as to aid in comminity chant (e.g. bold for the accent, italic for moving texts, underline for multi-note syllables).  This could be split off into a different repository if the need arose. 
